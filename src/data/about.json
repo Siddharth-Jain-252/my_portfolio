@@ -1,0 +1,16 @@
+{
+  "name": "Siddharth Mittal Jain",
+  "avatar": "SMJ",
+  "university": "B.Tech CSE · 2nd Year",
+  "email": "jainsiddharth252@gmail.com",
+  "contact": "+91 955-586-8497",
+  "location": "Lucknow, India",
+  "bio": "I'm a passionate CSE student who loves building things that live on the internet. I thrive at the intersection of elegant design and robust engineering — from crafting pixel-perfect UIs to designing scalable backend systems. When I'm not coding, I'm contributing to open source or exploring the latest in AI research.",
+  "links": [
+    { "label": "GitHub",   "url": "https://github.com/Siddharth-Jain-252/",   "icon": "gh" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/-siddharth-jain/", "icon": "li" },
+    { "label": "Twitter",  "url": "https://x.com/Siddharth_252_",  "icon": "tw" },
+    { "label": "Resume",   "url": "https://drive.google.com/file/d/1MGWqlR3NXxyEjndK7hpxrO2FeJEkVroR/view?usp=sharing",   "icon": "cv" },
+    { "label": "LeetCode", "url": "https://leetcode.com/u/SiddharthJain252/", "icon": "lc" }
+  ]
+}

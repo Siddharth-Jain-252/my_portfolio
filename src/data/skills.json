@@ -1,0 +1,8 @@
+[
+  { "broad": "Languages",      "technologies": ["Java", "C++", "Python", "PostgreSQL"] },
+  { "broad": "Frontend",       "technologies": ["React", "Tailwind CSS", "HTML5", "CSS3"] },
+  { "broad": "Backend",        "technologies": ["FastAPI", "Flask", "REST APIs", "Spring Boot"] },
+  { "broad": "Database",       "technologies": ["PostgreSQL", "MongoDB", "Redis"] },
+  { "broad": "DevOps & Cloud", "technologies": ["Docker", "Git", "GitHub Actions", "AWS", "Vercel"] },
+  { "broad": "AI / ML",        "technologies": ["TensorFlow", "Scikit-learn", "Pandas", "NumPy", "LangChain"] }
+]
