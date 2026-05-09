@@ -1,36 +1,38 @@
 import { C } from "../constants/theme";
 
+/**
+ * Reusable section heading with numbered label, title, and accent underline.
+ *
+ * Props:
+ *  num    – e.g. "01"
+ *  label  – e.g. "About"
+ *  title  – main heading text
+ *  center – center-align everything (default false)
+ *  sm     – use smaller font sizes for mobile (default false)
+ */
 export default function SectionHeading({ num, label, title, center = false, sm = false }) {
   return (
-    <div style={{ marginBottom: sm ? 30 : 52, textAlign: center ? "center" : "left" }}>
+    <div style={{ marginBottom: sm ? 28 : 48, textAlign: center ? "center" : "left" }}>
+      {/* Numbered label */}
       <div style={{
-        fontSize: 10.5, letterSpacing: "0.22em", color: C.accent,
+        fontSize: 11, letterSpacing: "0.18em", color: C.accent,
         fontFamily: C.mono, textTransform: "uppercase", marginBottom: 10,
-        display: "flex", alignItems: "center", gap: 10,
-        justifyContent: center ? "center" : "flex-start",
       }}>
-        <span style={{ color: C.accent2, opacity: 0.8 }}>{num}.</span>
-        {label}
-        <span style={{
-          flex: center ? 0 : 1, maxWidth: 60, height: 1,
-          background: `linear-gradient(90deg, ${C.accent}, transparent)`,
-          display: center ? "none" : "block",
-        }} />
+        {num}. {label}
       </div>
 
+      {/* Main title */}
       <h2 style={{
         fontFamily: C.sans, fontWeight: 800, margin: 0,
-        letterSpacing: "-0.025em", lineHeight: 1.1, color: C.text,
-        fontSize: sm ? "1.7rem" : "clamp(1.9rem, 5vw, 2.8rem)",
+        letterSpacing: "-0.02em", lineHeight: 1.12, color: C.text,
+        fontSize: sm ? "1.65rem" : "clamp(1.8rem, 5vw, 2.6rem)",
       }}>
         {title}
       </h2>
 
+      {/* Accent bar */}
       <div style={{
-        width: 52, height: 3.5,
-        background: `linear-gradient(90deg, ${C.accent}, ${C.accent2})`,
-        borderRadius: 2, marginTop: 16,
-        boxShadow: `0 0 12px rgba(232,184,109,0.4)`,
+        width: 44, height: 3, background: C.accent, borderRadius: 2, marginTop: 14,
         ...(center ? { marginLeft: "auto", marginRight: "auto" } : {}),
       }} />
     </div>

@@ -1,1 +1,42 @@
 @import 'tailwindcss';
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(118,171,174,0.18), transparent 25%),
+    radial-gradient(circle at bottom right, rgba(118,171,174,0.12), transparent 30%),
+    #0f1722;
+  color: #eeeeee;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(118,171,174,0.45);
+  border-radius: 999px;
+}
+
+::selection {
+  background: rgba(118,171,174,0.35);
+}
+
+a {
+  transition: all 0.25s ease;
+}

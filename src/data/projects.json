@@ -1,42 +1,34 @@
 [
   {
-    "name": "Chat App",
+    "name": "Swadist AI",
     "picture": null,
-    "description": "A real-time AI chat application powered by LLM APIs with streaming responses, conversation history, and multi-modal support. Features include code highlighting, markdown rendering, and custom system prompts.",
-    "tags": ["Next.js", "OpenAI", "WebSockets", "PostgreSQL"],
-    "websiteLink": "https://neuralchat.demo",
-    "githubLink": "https://github.com/alexreyes/neuralchat"
+    "description": "AI-powered nutrition tracking platform with food analysis, smart meal recommendations, and conversational health insights using LLM integrations.",
+    "tags": ["React", "Flask", "LLaMA", "MongoDB"],
+    "websiteLink": "https://swadist.vercel.app",
+    "githubLink": "https://github.com/Siddharth-Jain-252/Swadist"
   },
   {
-    "name": "Air Writing",
+    "name": "Air Writing Recognition",
     "picture": null,
-    "description": "A collaborative code editor with real-time sync powered by CRDTs. Supports 20+ languages with syntax highlighting, live cursor tracking, and integrated video calling via WebRTC.",
-    "tags": ["React", "Node.js", "CRDTs", "WebRTC"],
-    "websiteLink": "https://codecollab.demo",
-    "githubLink": "https://github.com/alexreyes/codecollab"
+    "description": "Computer vision project that recognizes characters written in the air using hand tracking, preprocessing pipelines, and deep learning inference.",
+    "tags": ["Python", "OpenCV", "TensorFlow", "MediaPipe"],
+    "websiteLink": "https://github.com/Siddharth-Jain-252/air_writing",
+    "githubLink": "https://github.com/Siddharth-Jain-252/air_writing"
   },
   {
-    "name": "Swadist",
+    "name": "AI Chat Workspace",
     "picture": null,
-    "description": "A full-stack project management tool inspired by Notion. Drag-and-drop boards, rich text editing, nested databases, and a powerful filter & sort system. REST API consumed by a React SPA.",
-    "tags": ["React", "FastAPI", "PostgreSQL", "Docker"],
-    "websiteLink": "https://taskflow.demo",
-    "githubLink": "https://github.com/alexreyes/taskflow"
+    "description": "Modern multi-chat workspace with markdown rendering, streaming responses, prompt templates, and persistent conversations.",
+    "tags": ["Next.js", "OpenAI", "Tailwind", "PostgreSQL"],
+    "websiteLink": "https://github.com/Siddharth-Jain-252",
+    "githubLink": "https://github.com/Siddharth-Jain-252"
   },
   {
-    "name": "Instagram Spam Detector",
+    "name": "Portfolio Website",
     "picture": null,
-    "description": "An interactive platform to visualize 30+ sorting, pathfinding, and graph algorithms step-by-step. Built for learners — control speed, step backward, and see live complexity analysis.",
-    "tags": ["React", "D3.js", "TypeScript", "Vite"],
-    "websiteLink": "https://algoviz.demo",
-    "githubLink": "https://github.com/alexreyes/algo-visualizer"
-  },
-  {
-    "name": "MyKeyboard",
-    "picture": null,
-    "description": "A college event and community platform with user authentication, real-time notifications, geolocation-based event discovery, and an admin dashboard for event organizers.",
-    "tags": ["Next.js", "Supabase", "Tailwind", "Vercel"],
-    "websiteLink": "https://campusconnect.demo",
-    "githubLink": "https://github.com/alexreyes/campusconnect"
+    "description": "Responsive portfolio built with Vite and React featuring smooth animations, elegant gradients, reusable components, and modern UI patterns.",
+    "tags": ["React", "Vite", "JavaScript", "CSS"],
+    "websiteLink": "https://github.com/Siddharth-Jain-252",
+    "githubLink": "https://github.com/Siddharth-Jain-252"
   }
 ]
