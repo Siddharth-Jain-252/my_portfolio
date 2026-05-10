@@ -52,18 +52,32 @@ export default function ProjectCard({ project, idx, sm }) {
         display: "flex", alignItems: "center", justifyContent: "center",
         position: "relative", overflow: "hidden",
       }}>
-        <div style={{
-          position: "absolute", inset: 0,
-          backgroundImage: "radial-gradient(circle at 30% 40%, rgba(118,171,174,0.1) 0%, transparent 60%)",
-        }} />
-
-        {/* Monogram */}
-        <span style={{
-          fontFamily: C.mono, fontSize: sm ? 32 : 38, fontWeight: 800,
-          color: "rgba(118,171,174,0.2)", letterSpacing: "-0.03em", userSelect: "none",
-        }}>
-          {initials}
-        </span>
+        {project.picture ? (
+          <img
+            src={project.picture}
+            alt={project.name}
+            style={{
+              position: "absolute", inset: 0,
+              width: "100%", height: "100%",
+              objectFit: "cover",
+              objectPosition: "center top",
+            }}
+          />
+        ) : (
+          <>
+            <div style={{
+              position: "absolute", inset: 0,
+              backgroundImage: "radial-gradient(circle at 30% 40%, rgba(118,171,174,0.1) 0%, transparent 60%)",
+            }} />
+            {/* Monogram fallback */}
+            <span style={{
+              fontFamily: C.mono, fontSize: sm ? 32 : 38, fontWeight: 800,
+              color: "rgba(118,171,174,0.2)", letterSpacing: "-0.03em", userSelect: "none",
+            }}>
+              {initials}
+            </span>
+          </>
+        )}
 
         {/* Top-right tag badges */}
         <div style={{ position: "absolute", top: 9, right: 9, display: "flex", gap: 5 }}>
@@ -110,7 +124,7 @@ export default function ProjectCard({ project, idx, sm }) {
 
         {/* Action buttons */}
         <div style={{ display: "flex", gap: 9 }}>
-          <a
+          
             href={project.githubLink}
             target="_blank"
             rel="noreferrer"
@@ -126,7 +140,7 @@ export default function ProjectCard({ project, idx, sm }) {
           >
             <Gh s={15} /> GitHub
           </a>
-          <a
+          
             href={project.websiteLink}
             target="_blank"
             rel="noreferrer"
