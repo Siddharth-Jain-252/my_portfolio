@@ -1,7 +1,7 @@
 [
   {
     "name": "Chat App",
-    "picture": "./images/ChatAppPic.png",
+    "picture": "/images/ChatAppPic.png",
     "description": "A real-time AI chat application powered by LLM APIs with streaming responses, conversation history, and multi-modal support. Features include code highlighting, markdown rendering, and custom system prompts.",
     "tags": ["Next.js", "OpenAI", "WebSockets", "PostgreSQL"],
     "websiteLink": "https://neuralchat.demo",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Air Writing",
-    "picture": "./images/AirWritingPic.png",
+    "picture": "/images/AirWritingPic.png",
     "description": "A collaborative code editor with real-time sync powered by CRDTs. Supports 20+ languages with syntax highlighting, live cursor tracking, and integrated video calling via WebRTC.",
     "tags": ["React", "Node.js", "CRDTs", "WebRTC"],
     "websiteLink": "https://codecollab.demo",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Swadist",
-    "picture": "./images/SwadistPic.png",
+    "picture": "/images/SwadistPic.png",
     "description": "A full-stack project management tool inspired by Notion. Drag-and-drop boards, rich text editing, nested databases, and a powerful filter & sort system. REST API consumed by a React SPA.",
     "tags": ["React", "FastAPI", "PostgreSQL", "Docker"],
     "websiteLink": "https://taskflow.demo",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Instagram Spam Detector",
-    "picture": "./images/InstagramSpamPic.png",
+    "picture": "/images/InstagramSpamPic.png",
     "description": "An interactive platform to visualize 30+ sorting, pathfinding, and graph algorithms step-by-step. Built for learners — control speed, step backward, and see live complexity analysis.",
     "tags": ["React", "D3.js", "TypeScript", "Vite"],
     "websiteLink": "https://algoviz.demo",
@@ -33,7 +33,7 @@
   },
   {
     "name": "MyKeyboard",
-    "picture": "./images/MyKeyboardPic.png",
+    "picture": "/images/MyKeyboardPic.png",
     "description": "A college event and community platform with user authentication, real-time notifications, geolocation-based event discovery, and an admin dashboard for event organizers.",
     "tags": ["Next.js", "Supabase", "Tailwind", "Vercel"],
     "websiteLink": "https://campusconnect.demo",
