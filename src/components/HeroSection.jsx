@@ -6,10 +6,10 @@ import aboutData from "../data/about.json";
 
 const PHRASES = [
   "Backend Developer",
-  "Artificial Intelligence Engineer",
-  "Creative Problem Solver",
+  "AI/ML Engineer",
+  "Data Structures & Algorithms Enthusiast",
   "Open Source Contributor",
-  "ML & GenAI Builder",
+  "GenAI System Developer",
 ];
 
 export default function HeroSection() {

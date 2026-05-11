@@ -2,7 +2,7 @@
   {
     "name": "Chat App",
     "picture": "/images/ChatAppPic.png",
-    "description": "A real-time AI chat application powered by LLM APIs with streaming responses, conversation history, and multi-modal support. Features include code highlighting, markdown rendering, and custom system prompts.",
+    "description": "A real-time anonymous chat application built with Spring Boot and WebSockets. Features include user authentication, private messaging, group chats, and message history stored in PostgreSQL.",
     "tags": ["Spring Framework", "Java", "WebSockets", "PostgreSQL", "ReactJS", "Tailwind CSS"],
     "websiteLink": null,
     "githubLink": "https://github.com/Siddharth-Jain-252/ChatApp"
@@ -10,7 +10,7 @@
   {
     "name": "Air Writing",
     "picture": "/images/AirWritingPic.png",
-    "description": "A collaborative code editor with real-time sync powered by CRDTs. Supports 20+ languages with syntax highlighting, live cursor tracking, and integrated video calling via WebRTC.",
+    "description": "A CNN project that detects digit written in air without any physical contact. Built using FastAPI it performs digit recognition in low latency.",
     "tags": ["CNN", "MediaPipe", "FastAPI", "Tensorflow", "Docker", "OpenCV", "React", "Tailwind CSS"],
     "websiteLink": "https://airwriting2.vercel.app/",
     "githubLink": "https://github.com/Siddharth-Jain-252/air_writing"
@@ -18,15 +18,15 @@
   {
     "name": "Swadist",
     "picture": "/images/SwadistPic.png",
-    "description": "A full-stack project management tool inspired by Notion. Drag-and-drop boards, rich text editing, nested databases, and a powerful filter & sort system. REST API consumed by a React SPA.",
-    "tags": ["Scikit-learn", "React", "FastAPI", "Docker", "Tailwind CSS"],
+    "description": "A full-stack project that provide an estimation on how long will it take to get user's order delivered. Features include a 24x7 AI based customer service chat bot.",
+    "tags": ["Scikit-learn", "Llama 3", "React", "FastAPI", "Docker", "Tailwind CSS"],
     "websiteLink": "https://swadist-zeta.vercel.app/",
     "githubLink": "https://github.com/Siddharth-Jain-252/Swadist"
   },
   {
     "name": "Instagram Spam Detector",
     "picture": "/images/InstagramSpamPic.png",
-    "description": "An interactive platform to visualize 30+ sorting, pathfinding, and graph algorithms step-by-step. Built for learners — control speed, step backward, and see live complexity analysis.",
+    "description": "An interactive platform to detect whether a given Instagram profile is a spam account or not. Built using a dataset of Instagram profiles, the app provides real-time predictions based on user input.",
     "tags": ["Scikit-learn", "Javascript", "Css", "HTML"],
     "websiteLink": "https://fake-id-detection-3.onrender.com/",
     "githubLink": "https://github.com/Siddharth-Jain-252/Fake_Id_Detection"
@@ -34,9 +34,9 @@
   {
     "name": "MyKeyboard",
     "picture": "/images/MyKeyboardPic.png",
-    "description": "A college event and community platform with user authentication, real-time notifications, geolocation-based event discovery, and an admin dashboard for event organizers.",
+    "description": "A custom keyboard application that learns from user input to provide personalized and accurate next-word predictions. Built using user's typing history, the app offers a seamless typing experience",
     "tags": ["LSTM", "Tensorflow", "React", "Tailwind CSS"],
-    "websiteLink": "#",
+    "websiteLink": null,
     "githubLink": "https://github.com/Siddharth-Jain-252/MyKeyboard"
   }
 ]
