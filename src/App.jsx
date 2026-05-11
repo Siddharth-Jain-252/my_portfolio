@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NotLive from "./pages/NotLive";
 import { C, SECTIONS } from "./constants/theme";
 import { useIsMobile } from "./hooks/useIsMobile";
 
@@ -51,7 +53,7 @@ export default function App() {
     return () => observer.disconnect();
   }, []);
 
-  return (
+  const Portfolio = (
     <div style={{ background: C.bg, minHeight: "100vh", color: C.text, overflowX: "hidden" }}>
       <Navbar active={active} />
 
@@ -65,5 +67,14 @@ export default function App() {
       <ContactSection />
       <Footer />
     </div>
+  );
+
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={Portfolio} />
+        <Route path="/not-live" element={<NotLive />} />
+      </Routes>
+    </BrowserRouter>
   );
 }

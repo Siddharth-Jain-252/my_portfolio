@@ -3,40 +3,40 @@
     "name": "Chat App",
     "picture": "/images/ChatAppPic.png",
     "description": "A real-time AI chat application powered by LLM APIs with streaming responses, conversation history, and multi-modal support. Features include code highlighting, markdown rendering, and custom system prompts.",
-    "tags": ["Next.js", "OpenAI", "WebSockets", "PostgreSQL"],
-    "websiteLink": "https://neuralchat.demo",
-    "githubLink": "https://github.com/alexreyes/neuralchat"
+    "tags": ["Spring Framework", "Java", "WebSockets", "PostgreSQL", "ReactJS", "Tailwind CSS"],
+    "websiteLink": null,
+    "githubLink": "https://github.com/Siddharth-Jain-252/ChatApp"
   },
   {
     "name": "Air Writing",
     "picture": "/images/AirWritingPic.png",
     "description": "A collaborative code editor with real-time sync powered by CRDTs. Supports 20+ languages with syntax highlighting, live cursor tracking, and integrated video calling via WebRTC.",
-    "tags": ["React", "Node.js", "CRDTs", "WebRTC"],
-    "websiteLink": "https://codecollab.demo",
-    "githubLink": "https://github.com/alexreyes/codecollab"
+    "tags": ["CNN", "MediaPipe", "FastAPI", "Tensorflow", "Docker", "OpenCV", "React", "Tailwind CSS"],
+    "websiteLink": "https://airwriting2.vercel.app/",
+    "githubLink": "https://github.com/Siddharth-Jain-252/air_writing"
   },
   {
     "name": "Swadist",
     "picture": "/images/SwadistPic.png",
     "description": "A full-stack project management tool inspired by Notion. Drag-and-drop boards, rich text editing, nested databases, and a powerful filter & sort system. REST API consumed by a React SPA.",
-    "tags": ["React", "FastAPI", "PostgreSQL", "Docker"],
-    "websiteLink": "https://taskflow.demo",
-    "githubLink": "https://github.com/alexreyes/taskflow"
+    "tags": ["Scikit-learn", "React", "FastAPI", "Docker", "Tailwind CSS"],
+    "websiteLink": "https://swadist-zeta.vercel.app/",
+    "githubLink": "https://github.com/Siddharth-Jain-252/Swadist"
   },
   {
     "name": "Instagram Spam Detector",
     "picture": "/images/InstagramSpamPic.png",
     "description": "An interactive platform to visualize 30+ sorting, pathfinding, and graph algorithms step-by-step. Built for learners — control speed, step backward, and see live complexity analysis.",
-    "tags": ["React", "D3.js", "TypeScript", "Vite"],
-    "websiteLink": "https://algoviz.demo",
-    "githubLink": "https://github.com/alexreyes/algo-visualizer"
+    "tags": ["Scikit-learn", "Javascript", "Css", "HTML"],
+    "websiteLink": "https://fake-id-detection-3.onrender.com/",
+    "githubLink": "https://github.com/Siddharth-Jain-252/Fake_Id_Detection"
   },
   {
     "name": "MyKeyboard",
     "picture": "/images/MyKeyboardPic.png",
     "description": "A college event and community platform with user authentication, real-time notifications, geolocation-based event discovery, and an admin dashboard for event organizers.",
-    "tags": ["Next.js", "Supabase", "Tailwind", "Vercel"],
-    "websiteLink": "https://campusconnect.demo",
-    "githubLink": "https://github.com/alexreyes/campusconnect"
+    "tags": ["LSTM", "Tensorflow", "React", "Tailwind CSS"],
+    "websiteLink": "#",
+    "githubLink": "https://github.com/Siddharth-Jain-252/MyKeyboard"
   }
 ]

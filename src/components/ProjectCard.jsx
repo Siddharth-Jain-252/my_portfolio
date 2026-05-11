@@ -1,6 +1,7 @@
 import { C } from "../constants/theme";
 import { useInView } from "../hooks/useInView";
 import { Gh, Ext } from "./Icons";
+import { Link } from "react-router-dom";
 
 /**
  * Single project card with cover art, description, tags, and action buttons.
@@ -140,23 +141,42 @@ export default function ProjectCard({ project, idx, sm }) {
             >
             <Gh s={15} /> GitHub
           </a>
-          <a
-            href={project.websiteLink}
-            target="_blank"
-            rel="noreferrer"
-            style={{
-              flex: 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 6,
-              padding: "11px 0", borderRadius: 7,
-              background: "rgba(118,171,174,0.14)",
-              border: "1px solid rgba(118,171,174,0.24)",
-              color: C.accent, textDecoration: "none",
-              fontSize: 12, fontFamily: C.mono, minHeight: 46, transition: "background 0.18s",
-            }}
-            onMouseEnter={(e) => (e.currentTarget.style.background = "rgba(118,171,174,0.24)")}
-            onMouseLeave={(e) => (e.currentTarget.style.background = "rgba(118,171,174,0.14)")}
-          >
-            <Ext s={13} /> Live
-          </a>
+          {/* Live button */}
+          {project.websiteLink ? (
+            <a
+              href={project.websiteLink}
+              target="_blank"
+              rel="noreferrer"
+              style={{
+                flex: 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 6,
+                padding: "11px 0", borderRadius: 7,
+                background: "rgba(118,171,174,0.14)",
+                border: "1px solid rgba(118,171,174,0.24)",
+                color: C.accent, textDecoration: "none",
+                fontSize: 12, fontFamily: C.mono, minHeight: 46, transition: "background 0.18s",
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.background = "rgba(118,171,174,0.24)")}
+              onMouseLeave={(e) => (e.currentTarget.style.background = "rgba(118,171,174,0.14)")}
+            >
+              <Ext s={13} /> Live
+            </a>
+          ) : (
+            <Link
+              to="/not-live"
+              style={{
+                flex: 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 6,
+                padding: "11px 0", borderRadius: 7,
+                background: "rgba(118,171,174,0.14)",
+                border: "1px solid rgba(118,171,174,0.24)",
+                color: C.accent, textDecoration: "none",
+                fontSize: 12, fontFamily: C.mono, minHeight: 46, transition: "background 0.18s",
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.background = "rgba(118,171,174,0.24)")}
+              onMouseLeave={(e) => (e.currentTarget.style.background = "rgba(118,171,174,0.14)")}
+            >
+              <Ext s={13} /> Live
+            </Link>
+          )}
         </div>
       </div>
     </div>
