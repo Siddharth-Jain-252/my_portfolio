@@ -124,7 +124,7 @@ export default function ProjectCard({ project, idx, sm }) {
 
         {/* Action buttons */}
         <div style={{ display: "flex", gap: 9 }}>
-          
+          <a
             href={project.githubLink}
             target="_blank"
             rel="noreferrer"
@@ -137,10 +137,10 @@ export default function ProjectCard({ project, idx, sm }) {
             }}
             onMouseEnter={(e) => (e.currentTarget.style.background = "rgba(118,171,174,0.09)")}
             onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
-          >
+            >
             <Gh s={15} /> GitHub
           </a>
-          
+          <a
             href={project.websiteLink}
             target="_blank"
             rel="noreferrer"
