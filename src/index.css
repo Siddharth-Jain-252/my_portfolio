@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+body { @apply bg-ink text-zinc-100 font-sans antialiased; }
+::selection { background: #4fd1a5; color: #0a0a0c; }
+:focus-visible { outline: 2px solid #4fd1a5; outline-offset: 3px; border-radius: 4px; }
+@media (hover: hover) and (pointer: fine) { body, a, button { cursor: none; } }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
